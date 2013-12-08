@@ -1,4 +1,4 @@
 BarkApp::Application.routes.draw do
-  root to: "users#index"
-
+  get "dogs" => 'dogs#index'
+  root to: 'users#index'
 end
